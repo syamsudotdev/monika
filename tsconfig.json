@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "CommonJS",
+    "target": "esnext",
+    "module": "nodenext",
     "outDir": "./lib",
     "rootDir": "./src",
     "strict": true,
@@ -11,8 +11,10 @@
     "declaration": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "moduleResolution": "nodenext",
+    "types": ["module", "bun-types"],
     "typeRoots": ["node_modules/@types", "custom_types"],
-    "lib": ["ES2021.String"],
+    "lib": ["ESNext"],
     "composite": true
   },
   "include": [

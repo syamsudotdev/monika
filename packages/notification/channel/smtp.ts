@@ -68,7 +68,7 @@ export const send = async (
     product: {
       name: 'Monika',
       link: 'https://monika.hyperjump.tech/',
-      logo: 'https://raw.githubusercontent.com/hyperjumptech/monika/main/docs/public/monika.svg',
+      logo: 'https://raw.githubusercontent.com/hyperjumptech/monika/main/docs/public/monika.png',
     },
   })
   const email = {
